@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Введите число");
-string a=Console.ReadLine();
-if (a.Length>2)
+int a=Convert.ToInt32(Console.ReadLine());
+if (a>99)
 {
-Console.WriteLine(a[2]);
+Console.WriteLine(Convert.ToString(a)[2]);
 }
 else
 {
