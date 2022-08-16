@@ -1,11 +1,18 @@
 ﻿
 Console.WriteLine("Введите номер дня недели:");
 int a=Convert.ToInt32(Console.ReadLine());
-if ((a==6)^(a==7))
+if (a<8)
 {
-    Console.WriteLine("Выходной");
+    if ((a==6)^(a==7))
+    {
+     Console.WriteLine("Выходной");
+    }
+    else
+    {
+    Console.WriteLine("Рабочий");
+    }
 }
 else
 {
-    Console.WriteLine("Рабочий");
+    Console.WriteLine("Дней недели всего семь");
 }
