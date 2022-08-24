@@ -22,7 +22,8 @@
              {
              double x=(b2-b1)/(k1-k2);
               //double y=(k1*(b2-b1))/(k1-k2)+b1;
-              double y=((b1/k1)-(b2/k2))*(k1-k2);
+              //double y=((b1/k1)-(b2/k2))*(k1-k2);
+                double y=x*k1+k2;
              Console.WriteLine($"Точка пересечения прямых заданных уравнениями y = {k1} * x + {b1} и y = {k2} * x + {b2} при x={x} y={y}");
              }
 
